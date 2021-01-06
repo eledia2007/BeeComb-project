@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    width: 100%;
+}
+.header {
+    height: 90px;
+    top: 0;
+}
+.header h3 {
+    color: #824b04;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-family: 'Berkshire Swash', cursive;
+}
+#logo {
+    float: left;
+    height: 90px;
+    width: 120px;
+}
+.shop-basket h4 {
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    color: #824b04;
+}
+
+.shop-basket img:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+/*efect de zoom*/
+}
+.shop-basket a {
+    color: #824b04;
+   text-decoration: none;
+   
+}
+.shop-basket a:hover {
+   text-decoration: underline;
+   
+}
+#shop-basket-icon {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/*navigare*/
+.navbar {
+    background-color: #f5d704;
+    height: 60px;
+    padding-top: 8px;
+    color:#824b04;
+    /* border-bottom:#3d2b07 solid 20px; */
+    
+}
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+.navbar a{
+    color: #824b04;
+    text-decoration: none;
+    font-family: 'Berkshire Swash', cursive;
+}
+.navbar a:hover {
+    text-decoration:underline;
+}
+
+
+/*search bar*/
+.searchbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: 1px solid #c79604;
+    font-size: 17px;
+    position: relative;
+    margin-right: 120px;
+    margin-top: -40px;
+}
+.searchbar button {
+    float: right;
+    font-size: 17px;
+    border: 1px solid #c79604;
+    cursor: pointer;
+    height:35px;
+    background-color: #3d2b07 ;
+    color:#f5d704;
+    position: relative;
+    margin-right: 60px;
+    margin-top: -40px;
+}
+.searchbar button:hover {
+    opacity: 0.7;
+}
+
+.sort-items {
+    background-color: #3d2b07;
+    height: 50px;
+    width: 100%;
+}
+
+/* content cont - inregistrare si autentificare */
+.content-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top:30px;
+    }
+    .content-cont div {
+            align-self: auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+            width: 650px;
+            height: 400px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            padding: 15px;
+            margin-bottom:15px;
+            background-color: #ccbd31;
+          }
+          
+          .content-cont p, label, h3 {
+            color: #824b04 ;
+            font-size: 14px;
+          }     
+
+/*footer*/
+.footernav {
+    background-color: #3d2b07;
+    bottom: 0; 
+    color: #fce00d; 
+    height: 70px; 
+    width: 100%; 
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
